@@ -132,6 +132,11 @@ npx hardhat run scripts/interact.js --network localhost
 Contract Address: [akan diisi setelah deploy]
 ```
 
+## Screenshot
+
+> Screenshot bukti demo akan ditambahkan
+
+| Screenshot | Keterangan |
 |---|---|
 | Compile berhasil | `npx hardhat compile` |
 | Test passing | `npx hardhat test` (semua hijau) |
@@ -149,4 +154,8 @@ Contract Address: [akan diisi setelah deploy]
    - **Chain ID**: 31337
    - **Currency Symbol**: ETH
 3. Import akun Hardhat menggunakan private key dari output `npx hardhat node`
-4. Sekarang bisa berinteraksi dengan contract yang sudah di-deploy
+4. Sekarang bisa berinteraksi dengan contract yang sudah di-deploy!
+
+## License
+
+MIT
