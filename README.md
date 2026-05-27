@@ -136,6 +136,3 @@ npx hardhat run scripts/interact.js --network localhost
 3. Import akun Hardhat menggunakan private key dari output `npx hardhat node`
 4. Sekarang bisa berinteraksi dengan contract yang sudah di-deploy!
 
-## License
-
-MIT
