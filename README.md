@@ -12,13 +12,13 @@ Contract ini di-deploy ke local blockchain (Hardhat Network) dan dapat diinterak
 
 ## Fitur
 
-### Fitur Wajib ✅
+### Fitur Utama
 - **Add Candidate** — Owner bisa membuat proposal/kandidat baru
 - **Vote** — User bisa vote untuk kandidat (sekali per user)
 - **View Results** — Menampilkan hasil voting (per kandidat dan pemenang)
 - **Event Logging** — Event saat kandidat ditambah dan saat voting
 
-### Fitur Bonus ⭐
+### Fitur Tambahan
 - **Voting Deadline** — Batas waktu voting otomatis
 - **Minimum Quorum** — Jumlah minimum vote agar hasil valid
 - **Weighted Voting** — Bobot voting berbeda untuk tiap user
@@ -124,26 +124,6 @@ npx hardhat run scripts/interact.js --network localhost
 | `VotingDeadlineSet(deadline)` | Deadline voting diubah |
 | `VoterWeightSet(voter, weight)` | Bobot voting user diubah |
 
-## Contract Address
-
-> Diisi setelah deploy ke local network
-
-```
-Contract Address: [akan diisi setelah deploy]
-```
-
-## Screenshot
-
-> Screenshot bukti demo akan ditambahkan
-
-| Screenshot | Keterangan |
-|---|---|
-| Compile berhasil | `npx hardhat compile` |
-| Test passing | `npx hardhat test` (semua hijau) |
-| Deploy berhasil | Output contract address |
-| MetaMask connected | Network Hardhat Local |
-| Transaksi berhasil | Minimal 2 transaksi berbeda |
-| State berubah | Bukti perubahan data di contract |
 
 ## Koneksi MetaMask ke Hardhat Network
 
